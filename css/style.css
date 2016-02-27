@@ -1,0 +1,54 @@
+@font-face {
+    	font-family: cubano;
+    	src: url(fonts/Cubano-Regular.otf);
+}
+@font-face {
+    	font-family: klinik;
+    	src: url(fonts/KlinikSlabMedium.otf);
+}
+body {
+	margin: 0;
+	background: #f7f4D5;
+	font-family: 'klinik', verdana, san-serif;
+}
+
+nav {
+	background: #141E13;
+	padding: 5px 0;
+}
+nav ul li {
+	display: inline-block;
+	color: #53C48B;
+	padding: 5px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: klinik, verdana, san-serif;
+	font-weight: bold;
+	margin-right: 10%;
+}
+
+nav ul li:nth-child(1) {
+	margin-left: 10%;
+}
+
+#title {
+	height: 80px;
+}
+
+#title h1 {
+	font-family: 'cubano', verdana, san-serif;
+	text-align: center;
+	font-size: 70px;
+	color: #141E13;
+	margin-top: 20px;
+	position: relative;
+	bottom: 0;
+}
+
+header img {
+	max-width: 100%;
+	margin-top: -10px;
+	padding-top: 0;
+	z-index: -1;
+
+}
