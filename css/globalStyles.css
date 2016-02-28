@@ -1,0 +1,111 @@
+@font-face {
+    	font-family: cubano;
+    	src: url(fonts/Cubano-Regular.otf);
+}
+@font-face {
+    	font-family: klinic;
+    	src: url(fonts/KlinicSlabMedium.otf);
+}
+body {
+	margin: 0;
+	background: #f7f4D5;
+	font-family: "klinic", georgia, serif;
+}
+a:link {
+	text-decoration: none;
+}
+h2 {
+	font-family: 'cubano', verdana, san-serif;
+	color: #131E13;
+	font-size: 40px;
+}
+.topnav {
+	background: #141E13;
+	padding: 5px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.topnav ul li {
+	display: inline-block;
+	color: #53C48B;
+	padding: 5px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 10%;
+	font-family: "klinic", georgia, serif;
+}
+.topnav a {
+	color: #5eb889;
+}
+.topnav a:hover {
+	color: #b55a88;
+}
+.topnav ul li:nth-child(1) {
+	margin-left: 10%;
+}
+#sel1, #sel2, #sel3, #sel4, #selRes, #selRead{
+	color: #f6f4d5;
+}
+.title {
+	height: 117px;
+	background: #53C48B;
+	padding: 0.02% 0;
+	margin-top: 4%;
+	margin-bottom: 0;
+}
+.title h1 {
+	font-family: 'cubano', verdana, san-serif;
+	text-align: center;
+	font-size: 70px;
+	color: #141E13;
+}
+header img {
+	max-width: 100%;
+	padding-top: 0;
+	z-index: -1;
+}
+.pageTitle {
+	font-family: cubano, verdana, san-serif;
+	text-align: center;
+	font-size: 70px;
+	color: #141E13;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.main {
+	margin-bottom: 600px;
+}
+.btmnav {
+	background: #141E13;
+	height: 20%;
+}
+.btmnav ul li {
+	display: inline-block;
+	color: #53C48B;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 5%;
+	font-family: "klinic", georgia, serif;
+	padding: 3% 0 0.5% 0;
+}
+.btmnav ul li:nth-child(1) {
+	margin-left: 15%;
+}
+.btmnav p {
+	text-align: right;
+	font-size: 12px;
+	margin-right: 10%;
+	color: #53C48B;
+}
+.btmnav a {
+	color: #5eb889;
+}
+.btmnav a:link {
+	text-decoration: none;
+}
+.btmnav a:hover {
+	color: #b55a88;
+}
