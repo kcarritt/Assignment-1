@@ -11,8 +11,12 @@ body {
 	background: #f7f4D5;
 	font-family: "klinic", georgia, serif;
 }
-a:link {
+a {
 	text-decoration: none;
+	color: #5eb889;
+}
+.topnav a:hover, .btmnav a:hover{
+	color: #b55a88;
 }
 h2 {
 	font-family: 'cubano', verdana, san-serif;
@@ -36,12 +40,6 @@ h2 {
 	margin-right: 10%;
 	font-family: "klinic", georgia, serif;
 }
-.topnav a {
-	color: #5eb889;
-}
-.topnav a:hover {
-	color: #b55a88;
-}
 .topnav ul li:nth-child(1) {
 	margin-left: 10%;
 }
@@ -62,7 +60,7 @@ h2 {
 	color: #141E13;
 }
 header img {
-	max-width: 100%;
+	width: 100%;
 	padding-top: 0;
 	z-index: -1;
 }
@@ -76,6 +74,7 @@ header img {
 }
 .main {
 	margin-bottom: 600px;
+	z-index: -2;
 }
 .btmnav {
 	background: #141E13;
@@ -99,13 +98,4 @@ header img {
 	font-size: 12px;
 	margin-right: 10%;
 	color: #53C48B;
-}
-.btmnav a {
-	color: #5eb889;
-}
-.btmnav a:link {
-	text-decoration: none;
-}
-.btmnav a:hover {
-	color: #b55a88;
 }
