@@ -4,17 +4,26 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/globalStyles.css">
 	<link rel="stylesheet" type="text/css" href="css/pageStyles.css">
-	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- Include the jQuery library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<title>Albertan Oil Industry</title>
+	<style>
+		@font-face {
+			font-family: cubano;
+			src: url(fonts/Cubano-regular.otf);
+		}
+		@font-face {
+			font-family: klinic;
+			src: url(fonts/KlinicSlabMedium.otf);
+		}
+	</style>
 </head>
-
 <body>
 	<nav class="topnav">
 		<ul>
 			<li><a href="environImpact.html">Environmental<br>Impacts</a></li>
 			<li><a href="economicImpact.html">Economic<br>Impacts</a></li>
-			<li><a href="sel3">Albertan<br>Projects</a></li>
+			<li id="sel3">Albertan<br>Projects</li>
 			<li><a href="altview.html">Alternative<br>Views</a></li>
 		</ul>
 	</nav>
@@ -25,29 +34,38 @@
 	<article>
 		<div class="main">
 			<h1 class="pageTitle">Albertan Projects</h1>
-		<div class="secondNav">
-			<div id="info1">
-				<h2>Information</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra metus in eros venenatis vehicula. Proin ornare porta nunc eget rhoncus. Nunc aliquet non felis at vehicula. Sed quis diam a eros mattis maximus. Curabitur id porta nibh, eu ultrices mi. Integer et aliquam diam, vestibulum facilisis purus. Quisque sit amet ante turpis. Fusce suscipit dignissim orci, ac mollis magna viverra id. Phasellus et eros tempor, molestie ex eu, placerat massa. Curabitur lobortis scelerisque nibh id vulputate. Sed feugiat tellus quis turpis sagittis porta. Cras pretium pellentesque eros, a facilisis sapien dapibus non. Nam accumsan elit ac felis cursus, nec luctus metus placerat. Sed volutpat et purus nec ornare. Phasellus sit amet sodales elit. Mauris eget ornare felis. Quisque ac lobortis justo. Phasellus est nibh, suscipit scelerisque ex sed, consectetur volutpat felis.</p>
+		<div id="secondNav">
+			<div id="EEP"><h3>Energy East Pipeline</h3></div>
+			<h3 id="OS">Oil Sands</h3>
+		</div>
+			<div id="EEPinfo">
+				<h2>Energy East Pipeline</h2>
+				<p>Expected to transport over 1.1 Billion barrels of oil a day, this 4600km pipeline will transport oil from Alberta and Saskatchewan, all the way to the Eastern end of Canada. With construction plotted to begin in 2017, there are thousands of jobs predicted as outcome of the massive projects. In Alberta alone, the numbers reach as far as 1200 new jobs in Alberta, both directly and indirectly. By the year 2040 the pipeline is expected to have made Canada over $55 Billion dollars in revenue, which will then go towards priveledges such as education, and healthcare. </p>
+				<p>Transcanada has promised that they have put their best foot forward on the safety side of the construction. The pipe is to be monitered via satellite 24 hours a day, 7 days a week, 365 days a year. Each section of pipe is being specifically designed to suit the studied area of land it will call home. Bodies of water are where the majority of saftey studies have been performed. There are plans to have shut off valves on either side, as well as thicker walled, safer pipes laid.
 			</div>
-			<div id="info2">
-				<h2>Information2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra metus in eros venenatis vehicula. Proin ornare porta nunc eget rhoncus. Nunc aliquet non felis at vehicula. Sed quis diam a eros mattis maximus. Curabitur id porta nibh, eu ultrices mi. Integer et aliquam diam, vestibulum facilisis purus. Quisque sit amet ante turpis. Fusce suscipit dignissim orci, ac mollis magna viverra id.</p>
-					<p>Phasellus et eros tempor, molestie ex eu, placerat massa. Curabitur lobortis scelerisque nibh id vulputate. Sed feugiat tellus quis turpis sagittis porta. Cras pretium pellentesque eros, a facilisis sapien dapibus non. Nam accumsan elit ac felis cursus, nec luctus metus placerat. Sed volutpat et purus nec ornare. Phasellus sit amet sodales elit. Mauris eget ornare felis. Quisque ac lobortis justo. Phasellus est nibh, suscipit scelerisque ex sed, consectetur volutpat felis.</p>
+			<div id="OSinfo">
+				<h2>Oil Sands</h2>
+				<p>Covering over 142 000 square kilometers of Albertan 
+		land, the oil sands are the third largest reserve of bitumen in the world. The oil 
+		sands are compiled from a mixture of sand, water, clay, and bitumen. Bitumen is 
+		the component the oil industry is working to obtain. It is an extremely thick 
+		substance which requires the proper heat, and dilution to reach a workable 
+		viscosity. In order to remove, and refine the bitumen, Dr. Karl A. Clark has 
+		researched a hot-water extraction method that fairly easily obtains this goal.</p>
 			</div>
 		</div>
 	</article>
 	<div class="btmnav">
 	<footer>
 		<ul>
-			<a href="resources.html"><li>Resources</li></a>
-			<a href="read.html"><li>Further Reading</li></a>
+			<a href="../bottom/resources.html"><li>Resources</li></a>
+			<a href="../bottom/read.html"><li>Further Reading</li></a>
 			<a href="https://github.com/kcarritt/Assignment-1/tree/master/css" target="_blank"><li>Github Link</li></a>
 		</ul>
 		<p>Design by Kyrie Carritt © 2016 </p>
 	</footer>
 	</div>
 	</div>
-
+<script src="js/main.js"></script>
 </body>
 </html>

@@ -23,5 +23,40 @@ article img {
 #selRead {
 	margin-left: 15%;
 }
+#EEPinfo, #OSinfo {
+	width: 60%;
+	margin: 10px 20% 10px 20%;
+	text-align: center;
+	color: #141E13;
+}
+#EEPinfo p, #OSinfo p {
+	text-align: left;
+	color: #141E13;
+}
+#EEP, #OS {
+	color: #720F37;
+	margin-left: 5%;
+	font-size: 20px;
+	-webkit-transition: color 1s, margin-left 1s;
+	transition: color 1s, margin-left 1s;
+}
 
+#EEP:hover, #OS:hover {
+	color: #b55a88;
+	margin-left: 6%;
+}
 
+#resource a:link {
+	text-decoration: none;
+}
+#resource #1 a:hover {
+	color: #b55a88;
+}
+
+#resource {
+	width: 50%;
+	margin-left: 25%;
+}
+.twitter-timeline {
+	margin-left: 70%;
+}
